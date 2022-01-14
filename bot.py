@@ -9,7 +9,7 @@ token = key["BOT_TOKEN"]
 
 intents= discord.Intents.default()
 intents.members = True
-client = commands.Bot(command_prefix='bot')
+client = commands.Bot(command_prefix='')
 
 @client.event
 async def on_ready():
